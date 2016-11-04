@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SisCandidatosModelStoreContainer" CdmEntityContainer="SisCandidatosEntities">
+    <EntitySetMapping Name="Candidato">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Candidato">
+        <MappingFragment StoreEntitySet="Candidato">
+          <ScalarProperty Name="CandidatoId" ColumnName="CandidatoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="LocalidadId" ColumnName="LocalidadId" />
+          <ScalarProperty Name="SueldoId" ColumnName="SueldoId" />
+          <ScalarProperty Name="EscolaridadId" ColumnName="EscolaridadId" />
+          <ScalarProperty Name="EspecialidadId" ColumnName="EspecialidadId" />
+          <ScalarProperty Name="EstadoCandidato" ColumnName="EstadoCandidato" />
+          <ScalarProperty Name="Capturista" ColumnName="Capturista" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+          <ScalarProperty Name="Archivo" ColumnName="Archivo" />
+          <ScalarProperty Name="Municipio_colonia" ColumnName="Municipio_colonia" />
+          <ScalarProperty Name="EstatusId" ColumnName="EstatusId" />
+          <ScalarProperty Name="ComentarioEstatus" ColumnName="ComentarioEstatus" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="EmpresaId" ColumnName="EmpresaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empresa">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Empresa">
+        <MappingFragment StoreEntitySet="Empresa">
+          <ScalarProperty Name="EmpresaId" ColumnName="EmpresaId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Escolaridad">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Escolaridad">
+        <MappingFragment StoreEntitySet="Escolaridad">
+          <ScalarProperty Name="EscolaridadId" ColumnName="EscolaridadId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Especialidad">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Especialidad">
+        <MappingFragment StoreEntitySet="Especialidad">
+          <ScalarProperty Name="EspecialidadId" ColumnName="EspecialidadId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estatus">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Estatus">
+        <MappingFragment StoreEntitySet="Estatus">
+          <ScalarProperty Name="EstatusId" ColumnName="EstatusId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Localidad">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Localidad">
+        <MappingFragment StoreEntitySet="Localidad">
+          <ScalarProperty Name="LocalidadId" ColumnName="LocalidadId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sueldo">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Sueldo">
+        <MappingFragment StoreEntitySet="Sueldo">
+          <ScalarProperty Name="SueldoId" ColumnName="SueldoId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vacante">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Vacante">
+        <MappingFragment StoreEntitySet="Vacante">
+          <ScalarProperty Name="VacanteId" ColumnName="VacanteId" />
+          <ScalarProperty Name="VacanteTitulo" ColumnName="VacanteTitulo" />
+          <ScalarProperty Name="VacanteFecha" ColumnName="VacanteFecha" />
+          <ScalarProperty Name="VacanteAreaId" ColumnName="VacanteAreaId" />
+          <ScalarProperty Name="VacanteLocalidadId" ColumnName="VacanteLocalidadId" />
+          <ScalarProperty Name="Delegacion_Municipio" ColumnName="Delegacion_Municipio" />
+          <ScalarProperty Name="VacanteSueldoId" ColumnName="VacanteSueldoId" />
+          <ScalarProperty Name="DescripcionVacante" ColumnName="DescripcionVacante" />
+          <ScalarProperty Name="VacanteEstatusId" ColumnName="VacanteEstatusId" />
+          <ScalarProperty Name="CometarioVacante" ColumnName="CometarioVacante" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VacanteArea">
+      <EntityTypeMapping TypeName="SisCandidatosModel.VacanteArea">
+        <MappingFragment StoreEntitySet="VacanteArea">
+          <ScalarProperty Name="VacanteAreaId" ColumnName="VacanteAreaId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VacanteEstatus">
+      <EntityTypeMapping TypeName="SisCandidatosModel.VacanteEstatus">
+        <MappingFragment StoreEntitySet="VacanteEstatus">
+          <ScalarProperty Name="VacanteEstatusId" ColumnName="VacanteEstatusId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VacanteLocalidad">
+      <EntityTypeMapping TypeName="SisCandidatosModel.VacanteLocalidad">
+        <MappingFragment StoreEntitySet="VacanteLocalidad">
+          <ScalarProperty Name="VacanteLocalidadId" ColumnName="VacanteLocalidadId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VacanteSueldo">
+      <EntityTypeMapping TypeName="SisCandidatosModel.VacanteSueldo">
+        <MappingFragment StoreEntitySet="VacanteSueldo">
+          <ScalarProperty Name="VacanteSueldoId" ColumnName="VacanteSueldoId" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaCaptura" ColumnName="FechaCaptura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="SisCandidatosModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="UsuarioId" ColumnName="UsuarioId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Usuario1" ColumnName="Usuario" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Puesto" ColumnName="Puesto" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AsignacionVacante">
+      <EntityTypeMapping TypeName="SisCandidatosModel.AsignacionVacante">
+        <MappingFragment StoreEntitySet="AsignacionVacante">
+          <ScalarProperty Name="AsignacionFecha" ColumnName="AsignacionFecha" />
+          <ScalarProperty Name="AsignacionEstatus" ColumnName="AsignacionEstatus" />
+          <ScalarProperty Name="VacanteId" ColumnName="VacanteId" />
+          <ScalarProperty Name="CandidatoId" ColumnName="CandidatoId" />
+          <ScalarProperty Name="AsignacionVacanteId" ColumnName="AsignacionVacanteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
